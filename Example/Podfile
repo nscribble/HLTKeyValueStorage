@@ -1,0 +1,13 @@
+#use_frameworks!
+
+platform :ios, '8.0'
+
+target 'HLTKeyValueStorage_Example' do
+  pod 'HLTKeyValueStorage', :path => '../'
+
+  target 'HLTKeyValueStorage_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  end
+end

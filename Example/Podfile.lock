@@ -1,0 +1,31 @@
+PODS:
+  - HLTKeyValueStorage (0.1.0):
+    - MMKV
+  - Kiwi (3.0.0)
+  - MMKV (1.1.2):
+    - MMKVCore (~> 1.1.2)
+  - MMKVCore (1.1.2)
+
+DEPENDENCIES:
+  - HLTKeyValueStorage (from `../`)
+  - Kiwi
+
+SPEC REPOS:
+  trunk:
+    - Kiwi
+    - MMKV
+    - MMKVCore
+
+EXTERNAL SOURCES:
+  HLTKeyValueStorage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HLTKeyValueStorage: 29d2e3096372b181b203573e87d261fbe51e0236
+  Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
+  MMKV: 319aede3b690572ad00bada5831146c63da3d009
+  MMKVCore: ae976ab3f019a3e4448f884353e0557b324ff136
+
+PODFILE CHECKSUM: e69fe6eb4ae27f79d2c48dca1f08936d0cf3ee14
+
+COCOAPODS: 1.11.3
